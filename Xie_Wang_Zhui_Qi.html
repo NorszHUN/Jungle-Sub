@@ -6,7 +6,14 @@
     <title>Xie Wang_Zhui Qi 2. évad</title>
     <link rel="shortcut icon" type="image/png" href="gang.png">
     <link href="styleXie_Wang_Zhui_Qi.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.3/plyr.css" />
 </head>
+<script src="plyr.js" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const player = Plyr.setup('.js-player');
+    });
+</script>
 <body>
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -29,7 +36,9 @@
 
     </ul>
     <div class="wrapper">
-        <iframe frameborder="0" type="text/html" src="https://drive.google.com/file/d/1at6j2L7E1piOZdYHZHmp2NGZgPCdhVvL/preview" width="1400" height="550" allowfullscreen allow="autoplay"> </iframe>
-
+        <h3>Tokyo Revengers 2. évad 1. rész</h3>
+        <video id="player" playsinline controls class="js-player">
+        <source src="https://www.googleapis.com/drive/v3/files/1LFecsG5285F73QWnpf07Qu1XilKNwd_B?alt=media&key=AIzaSyAYFgLP67d-z_c_RqJ9mFohFHT-dH-GAAU&v=.mp4" type="video/mp4" sizes="1080" />
+      </video>
 </body>
 </html>
