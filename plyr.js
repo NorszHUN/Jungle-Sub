@@ -3,7 +3,7 @@ controls:["play-large","play","progress","current-time","mute","volume","caption
   settings:["captions","quality","speed"],i18n:{restart:"Restart",rewind:"Rewind {seektime}s",
     play:"Lejátszás",pause:"Megállítás",fastForward:"Előre {seektime}s",seek:"Seek",seekLabel:"{currentTime} of {duration}",
     played:"Lejátszva",buffered:"Buffered",currentTime:"Current time",duration:"Duration",volume:"Hang",mute:"Mute",unmute:"Unmute",
-    enableCaptions:"Enable captions",disableCaptions:"Disable captions",download:"Download",enterFullscreen:"Enter fullscreen",exitFullscreen:"Exit fullscreen",
+    enableCaptions:"Enable captions",disableCaptions:"Disable captions",download:"Letöltés",enterFullscreen:"Enter fullscreen",exitFullscreen:"Exit fullscreen",
     frameTitle:"Player for {title}",captions:"Feliratok",settings:"Beállítások",pip:"PIP",menuBack:"Go back to previous menu",speed:"Sebesség",normal:"Normál",
     quality:"Minőség",loop:"Loop",start:"Start",end:"End",all:"All",reset:"Reset",disabled:"Disabled",enabled:"Enabled",advertisement:"Ad",
 qualityBadge:{2160:"4K",1440:"2K",1080:"FHD",720:"HD",576:"SD",480:"SD"}},
